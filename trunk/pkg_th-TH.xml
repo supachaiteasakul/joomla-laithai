@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<extension type="package" version="2.5">
+	<name>Thai Language Pack</name>
+	<packagename>th-TH</packagename>
+	<version>2.5.5.1</version>
+	<creationDate>18.06.2012</creationDate>
+	<author>JoomlaCorner</author>
+	<authorEmail>akarawuth@joomlacorner.com</authorEmail>
+	<authorUrl>www.joomlacorner.com</authorUrl>
+	<url></url>
+	<packager></packager>
+	<packagerurl></packagerurl>
+	<description><![CDATA[
+		<div align="center">
+		<table border="0" width="90%">
+		<tr>
+			<td width="100%" colspan="2">
+				<div align="center">
+					<h3>Joomla 2.5.5 Thai Language Pack by JoomlaCorner Team under Marvelic Engine Co.,Ltd.<br />ภาษาไทยสำหรับจูมล่า 2.5.5 จากทีมจูมล่าคอร์เนอร์ ภายใต้การสนับสนุนโดยบริษัทมาร์เวลิค เอ็นจิ้น จำกัด</h3>
+  		      </div>
+  		      <hr />
+  		    </td>
+  	    </tr>
+  	    <tr>
+  		    <td width="22%"><u><strong>ประกอบด้วย:</strong></u></td>
+  		    <td width="80%">ส่วนของผู้ดูแล (ด้านหลัง) และส่วนของไซต์ (ด้านหน้าเว็บ)</td>
+  	    </tr>
+  	    <tr>
+  		    <td width="22%"><u><strong>เวอร์ชั่น จูมล่า :</strong></u></td>
+  		    <td width="80%">2.5.5</td>
+  	    </tr>
+  	    <tr>
+  		    <td width="22%"><u><strong>เวอร์ชั่น ของไฟล์ภาษา:</strong></u></td>
+  		    <td width="80%">2.5.5v1</td>
+  	    </tr>
+  	    <td width="100%" colspan="2"><hr /></td>
+  	    <tr>
+  		    <td width="40%"><u><strong>เว็บไซต์จูมล่าคอร์เนอร์ :</strong></u></td>
+  		    <td width="60%"><a href="http://www.joomlacorner.com" target="_blank">http://www.joomlacorner.com</a></td>
+  		 </tr>
+  		 <tr>   
+   		    <td width="40%"><u><strong>เว็บไซต์บริษัทมาร์เวลิค เอ็นจิ้น จำกัด :</strong></u></td>
+  		    <td width="60%"><a href="http://www.marvelic.co.th" target="_blank">http://www.marvelic.co.th</a></td>
+  	    </tr>
+  	    <tr>
+  		    <td width="100%" colspan="2">
+  		      <strong><font color="#008000">ท่านสามารถติดตามข่าวสารและเวอร์ชั่นล่าสุด จากเว็บไซต์ของเราข้างต้น</font></strong>
+          </td>
+  	    </tr>
+      </table>
+    </div>]]>
+    </description>
+<files>
+        <file type="language" client="site" id="th-TH">site_th-TH.zip</file>
+		<file type="language" client="administrator" id="th-TH">admin_th-TH.zip</file>
+</files>
+    <updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist.xml</server>
+        <server type="collection" priority="2" name="Thai Language Updates">http://update.joomlacorner.com/translationlist.xml</server>
+    </updateservers>
+</extension>
