@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- $Id: install.xml 26 2012-09-04 12:33:52Z supachai $ -->
+<!-- $Id: install.xml 27 2012-09-04 13:05:18Z supachai $ -->
 <extension version="2.5" client="site" type="language" method="upgrade">
     <name>Thai (ภาษาไทย)</name>
     <tag>th-TH</tag>
@@ -22,7 +22,7 @@
   		    </td>
   	    </tr>
   	    <tr>
-  		    <td width="20%"><u><strong>ครอบคลุม:</strong></u></td>
+  		    <td width="20%"><u><strong>รายละเอียด:</strong></u></td>
   		    <td width="80%">ภาษาไทยสำหรับไซต์ (ด้านหน้า)</td>
   	    </tr>
   	    <tr>
@@ -130,13 +130,11 @@
 		<filename file="meta">install.xml</filename>
 		<filename file="meta">th-TH.xml</filename>
 	</files>
- 			                                                 
-<media destination="th-TH"> //if one needs to add a specific calendar
+<media destination="th-TH"> <!-- If one needs to add a specific calendar -->
 		<filename>index.html</filename>
 		<filename>js/index.html</filename>
 		<filename>js/calendar-setup.js</filename>
 		<filename>js/calendar.js</filename>
 </media>
-
 	<params />
 </extension>

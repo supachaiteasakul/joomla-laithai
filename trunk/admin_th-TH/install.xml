@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<!-- $Id: install.xml 26 2012-09-04 12:33:52Z supachai $ -->
+<!-- $Id: install.xml 27 2012-09-04 13:05:18Z supachai $ -->
 <extension version="2.5" client="administrator" type="language" method="upgrade">
 	<name>Thai (ภาษาไทย)</name>
 	<tag>th-TH</tag>
@@ -16,7 +16,7 @@
   	    <tr>
   		    <td width="100%" colspan="2">
   		      <div align="center">
-  		        <h3>ภาษาไทยสำหรับจูมล่า 2.5.7 จากทีมจูมล่าคอร์เนอร์ ภายใต้การสนับสนุนโดยบริษัทมาร์เวลิค เอ็นจิ้น จำกัด</h3>
+  		        <h3>ภาษาไทยสำหรับ จูมล่า 2.5.7 จากทีมจูมล่าคอร์เนอร์ ภายใต้การสนับสนุนโดยบริษัทมาร์เวลิค เอ็นจิ้น จำกัด</h3>
   		      </div>
   		      <hr />
   		    </td>
@@ -26,7 +26,7 @@
   		    <td width="80%">ภาษาไทยสำหรับผู้ดูแลระบบ (ด้านหลัง)</td>
   	    </tr>
   	    <tr>
-  		    <td width="20%"><u><strong>เวอร์ชั่นจูมล่า:</strong></u></td>
+  		    <td width="20%"><u><strong>เวอร์ชั่น จูมล่า:</strong></u></td>
   		    <td width="80%">2.5.7</td>
   	    </tr>
   	    <tr>
@@ -107,6 +107,7 @@
 		<filename>th-TH.com_wrapper.sys.ini</filename>
 		<filename>th-TH.ini</filename>
 		<filename>th-TH.lib_joomla.ini</filename>
+		<filename>th-TH.localise.php</filename>
 		<filename>th-TH.mod_custom.ini</filename>
 		<filename>th-TH.mod_custom.sys.ini</filename>
 		<filename>th-TH.mod_feed.ini</filename>
@@ -233,12 +234,11 @@
 		<filename>th-TH.tpl_hathor.sys.ini</filename>		
 		<filename file="meta">th-TH.xml</filename>
 		<filename file="meta">install.xml</filename>
-	<filename>th-TH.localise.php</filename>
 	</files>
-  <media destination="th-TH"> <!-- If one needs to add a specific calendar -->
-	    <filename>index.html</filename>
-	    <filename>js/index.html</filename>
-	     <filename>js/calendar-setup.js</filename>
-	     <filename>js/calendar.js</filename>
+<media destination="th-TH"> <!-- If one needs to add a specific calendar -->
+		<filename>index.html</filename>
+		<filename>js/index.html</filename>
+		<filename>js/calendar-setup.js</filename>
+		<filename>js/calendar.js</filename>
 </media>
 </extension>
