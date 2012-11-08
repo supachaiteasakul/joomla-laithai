@@ -3,8 +3,8 @@
 <extension version="3.0" client="administrator" type="language" method="upgrade">
 	<name>Thai (ภาษาไทย)</name>
 	<tag>th-TH</tag>
-	<version>3.0.1.1</version>
-	<creationDate>02.10.2012</creationDate>
+	<version>3.0.2.1</version>
+	<creationDate>06.11.2012</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
@@ -31,7 +31,7 @@
   	    </tr>
   	    <tr>
   		    <td width="20%"><u><strong>เวอร์ชั่นไฟล์ภาษา:</strong></u></td>
-  		    <td width="80%">3.0.1v1</td>
+  		    <td width="80%">3.0.2v1</td>
   	    </tr>
   	    <td width="100%" colspan="2"><hr /></td>
    	    <tr>
