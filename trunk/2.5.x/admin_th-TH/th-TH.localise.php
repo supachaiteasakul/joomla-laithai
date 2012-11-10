@@ -158,7 +158,7 @@ class th_THDate extends JDate {
 	 * @return	string	The date string in the french republican calendar (see @link{http://en.wikipedia.org/wiki/French_Republican_Calendar}).
 	 * @since	1.6
 	 */
-	public function calendar($format, $local = false)
+	public function calendar($format, $local = false, $translate = true)
 	{
 		// Do string replacements for date format options that can be translated.
 		$format = preg_replace('/(^|[^\\\])d/', "\\1".self::DAY_NUMBER, $format);

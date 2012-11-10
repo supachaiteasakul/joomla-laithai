@@ -2,8 +2,8 @@
 <extension type="package" version="2.5">
 	<name>Thai Language Pack</name>
 	<packagename>th-TH</packagename>
-	<version>2.5.7.1</version>
-	<creationDate>04.09.2012</creationDate>
+	<version>2.5.8.1</version>
+	<creationDate>10.11.2012</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
@@ -16,7 +16,7 @@
 		<tr>
 			<td width="100%" colspan="2">
 				<div align="center">
-					<h3>Joomla 2.5.7 Thai Language Pack by JoomlaCorner Team under Marvelic Engine Co.,Ltd.<br />ภาษาไทยสำหรับจูมล่า 2.5.7 จากทีมจูมล่าคอร์เนอร์ ภายใต้การสนับสนุนโดยบริษัทมาร์เวลิค เอ็นจิ้น จำกัด</h3>
+					<h3>Joomla 2.5.8 Thai Language Pack by JoomlaCorner Team under Marvelic Engine Co.,Ltd.<br />ภาษาไทยสำหรับจูมล่า 2.5.8 จากทีมจูมล่าคอร์เนอร์ ภายใต้การสนับสนุนโดยบริษัทมาร์เวลิค เอ็นจิ้น จำกัด</h3>
   		      </div>
   		      <hr />
   		    </td>
@@ -27,11 +27,11 @@
   	    </tr>
   	    <tr>
   		    <td width="22%"><u><strong>เวอร์ชั่น จูมล่า :</strong></u></td>
-  		    <td width="80%">2.5.7</td>
+  		    <td width="80%">2.5.8</td>
   	    </tr>
   	    <tr>
   		    <td width="22%"><u><strong>เวอร์ชั่น ของไฟล์ภาษา:</strong></u></td>
-  		    <td width="80%">2.5.7v1</td>
+  		    <td width="80%">2.5.8v1</td>
   	    </tr>
   	    <td width="100%" colspan="2"><hr /></td>
   	    <tr>
