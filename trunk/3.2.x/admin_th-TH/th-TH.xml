@@ -2,12 +2,12 @@
 <metafile version="3.2" client="administrator" method="upgrade">
 	<tag>th-TH</tag>
 	<name>Thai (ภาษาไทย)</name>
-	<version>3.2.1.1</version>
-	<creationDate>2013-12-19</creationDate>
+	<version>3.2.2.1</version>
+	<creationDate>2014-02-06</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
-	<copyright>Copyright (C) 2005 - 2013 Open Source Matters &amp; JoomlaCorner.com. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2014 Open Source Matters &amp; JoomlaCorner.com. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description>Thai (ภาษาไทย) ด้านหลัง สำหรับ Joomla! 3.2 โดยทีมลายไทย JoomlaCorner.com ภายใต้การสนับสนุนโดยบริษัทมาร์เวลิค เอ็นจิ้นจำกัด</description>
 	<metadata>
