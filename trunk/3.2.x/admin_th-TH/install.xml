@@ -253,4 +253,5 @@
 		<filename file="meta">th-TH.xml</filename>
 		<filename file="meta">install.xml</filename>
 	</files>
+	<params />
 </extension>
