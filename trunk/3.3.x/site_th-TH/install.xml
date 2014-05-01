@@ -51,7 +51,6 @@
     </div>]]>
     </description>
 	<files>
-		<filename>index.html</filename>
 		<filename>th-TH.com_ajax.ini</filename>
 		<filename>th-TH.com_config.ini</filename>
 		<filename>th-TH.com_contact.ini</filename>
@@ -135,6 +134,7 @@
 		<filename>th-TH.tpl_beez3.sys.ini</filename>
 		<filename>th-TH.tpl_protostar.ini</filename>
 		<filename>th-TH.tpl_protostar.sys.ini</filename>
+		<filename>index.html</filename>
 		<filename file="meta">install.xml</filename>
 		<filename file="meta">th-TH.xml</filename>
 	</files>
