@@ -3,8 +3,8 @@
 <extension version="2.5" client="administrator" type="language" method="upgrade">
 	<name>Thai (ภาษาไทย)</name>
 	<tag>th-TH</tag>
-	<version>2.5.23.1</version>
-	<creationDate>2014-07-25</creationDate>
+	<version>2.5.25.1</version>
+	<creationDate>2014-09-23</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
@@ -16,7 +16,7 @@
   	    <tr>
   		    <td width="100%" colspan="2">
   		      <div align="center">
-  		        <h3>ภาษาไทยสำหรับ จูมล่า 2.5.23 จากทีมจูมล่าคอร์เนอร์ ภายใต้การสนับสนุนโดย บริษัท มาร์เวลิค เอ็นจิ้น จำกัด</h3>
+  		        <h3>ภาษาไทยสำหรับ จูมล่า 2.5.25 จากทีมจูมล่าคอร์เนอร์ ภายใต้การสนับสนุนโดย บริษัท มาร์เวลิค เอ็นจิ้น จำกัด</h3>
   		      </div>
   		      <hr />
   		    </td>
@@ -27,11 +27,11 @@
   	    </tr>
   	    <tr>
   		    <td width="20%"><u><strong>เวอร์ชั่น จูมล่า:</strong></u></td>
-  		    <td width="80%">2.5.23</td>
+  		    <td width="80%">2.5.25</td>
   	    </tr>
   	    <tr>
   		    <td width="20%"><u><strong>เวอร์ชั่น ไฟล์ภาษา:</strong></u></td>
-  		    <td width="80%">2.5.23v1</td>
+  		    <td width="80%">2.5.25v1</td>
   	    </tr>
   	    <td width="100%" colspan="2"><hr /></td>
    	    <tr>
