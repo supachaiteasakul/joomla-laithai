@@ -1643,13 +1643,13 @@ Date.parseDate = function(str, fmt) {
 	if (isNaN(d)) d = today.getDate();
 	if (isNaN(hr)) hr = today.getHours();
 	if (isNaN(min)) min = today.getMinutes();
-	if (y != 0 && m != -1 && d != 0) {
-		if((y-today.getFullYear())>0) {//is buddhist year?
-			today.setBuddhistFullYear(y);
-			y = today.getFullYear();
-		}
-		return new Date(y, m, d, hr, min, 0);
-	}
+	// if (y != 0 && m != -1 && d != 0) {
+	// 	if((y-today.getFullYear())>0) {//is buddhist year?
+	// 		today.setBuddhistFullYear(y);
+	// 		y = today.getFullYear();
+	// 	}
+	// 	return new Date(y, m, d, hr, min, 0);
+	// }
 	y = 0; m = -1; d = 0;
 	for (i = 0; i < a.length; ++i) {
 		if (a[i].search(/[a-zA-Z]+/) != -1) {

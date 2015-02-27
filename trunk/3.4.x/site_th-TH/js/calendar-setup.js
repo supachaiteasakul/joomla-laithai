@@ -107,22 +107,28 @@ Calendar.setup = function (params) {
     var dateFmt = params.inputField ? params.ifFormat : params.daFormat;
     if (dateEl.value && (dateEl.value!='') && (dateEl.value!='0000-00-00 00:00:00')) {
         var date = Date.parseDate(dateEl.value || dateEl.innerHTML, dateFmt);
-        params.inputField.value = date.print(params.ifFormat);
+        // params.inputField.value = date.print(params.ifFormat);
+		var d = date.print(params.ifFormat);
+		var Y = d.substring(0, 4)-543;
+		params.inputField.value = Y+d.substring(4);
     }
-    params.inputField.form.addEvent('submit', function () {
-        var dateEl = params.inputField || params.displayArea;
-        var dateFmt = params.inputField ? params.ifFormat : params.daFormat;
-        if (dateEl.value && (dateEl.value!='') && (dateEl.value!='0000-00-00 00:00:00')) {
-            var date = Date.parseDate(dateEl.value || dateEl.innerHTML, dateFmt);
-            params.inputField.value = date.print(params.ifFormat,true);
-        }
-    });
+    // params.inputField.form.addEvent('submit', function () {
+    //     var dateEl = params.inputField || params.displayArea;
+    //     var dateFmt = params.inputField ? params.ifFormat : params.daFormat;
+    //     if (dateEl.value && (dateEl.value!='') && (dateEl.value!='0000-00-00 00:00:00')) {
+    //         var date = Date.parseDate(dateEl.value || dateEl.innerHTML, dateFmt);
+    //         params.inputField.value = date.print(params.ifFormat,true);
+    //     }
+    // });
 
 	function onSelect(cal) {
 		var p = cal.params;
 		var update = (cal.dateClicked || p.electric);
 		if (update && p.inputField) {
-			p.inputField.value = cal.date.print(p.ifFormat);
+			// p.inputField.value = cal.date.print(p.ifFormat);
+			var d = cal.date.print(p.ifFormat);
+			var Y = d.substring(0, 4)-543;
+			p.inputField.value = Y+d.substring(4);
 			if (typeof p.inputField.onchange == "function")
 				p.inputField.onchange();
 		}
