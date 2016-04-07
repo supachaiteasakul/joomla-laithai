@@ -2,8 +2,8 @@
 <extension version="3.5" client="administrator" type="language" method="upgrade">
 	<name>Thai (ภาษาไทย)</name>
 	<tag>th-TH</tag>
-	<version>3.5.0.2</version>
-	<creationDate>2016-04-04</creationDate>
+	<version>3.5.1.1</version>
+	<creationDate>2016-04-08</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
@@ -22,7 +22,7 @@
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>รายละเอียด :</strong></u></td>
-  		    <td width="60%">ภาษาไทยสำหรับผู้ดูแลระบบ (ด้านหลัง)</td>
+  		    <td width="60%">ภาษาไทยสำหรับผู้ดูแลระบบ (ด้านหน้าผู้ดูแล)</td>
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>เวอร์ชัน จูมล่า :</strong></u></td>
@@ -30,7 +30,7 @@
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>เวอร์ชัน ไฟล์ภาษา :</strong></u></td>
-  		    <td width="60%">3.5.0v2</td>
+  		    <td width="60%">3.5.1v1</td>
   	    </tr>
   	    <td width="100%" colspan="2"><hr /></td>
    	    <tr>
@@ -156,8 +156,8 @@
 		<filename>th-TH.plg_captcha_recaptcha.sys.ini</filename>
 		<filename>th-TH.plg_content_contact.ini</filename>
 		<filename>th-TH.plg_content_contact.sys.ini</filename>
-        <filename>th-TH.plg_content_emailcloak.ini</filename>
-        <filename>th-TH.plg_content_emailcloak.sys.ini</filename>
+    <filename>th-TH.plg_content_emailcloak.ini</filename>
+    <filename>th-TH.plg_content_emailcloak.sys.ini</filename>
 		<filename>th-TH.plg_content_finder.ini</filename>
 		<filename>th-TH.plg_content_finder.sys.ini</filename>
 		<filename>th-TH.plg_content_joomla.ini</filename>

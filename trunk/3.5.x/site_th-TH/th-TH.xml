@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <metafile version="3.5" client="site" method="upgrade">
 	<name>Thai (ภาษาไทย)</name>
-	<version>3.5.0.2</version>
-	<creationDate>2016-04-04</creationDate>
+	<version>3.5.1.1</version>
+	<creationDate>2016-04-08</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
 	<copyright>Copyright (C) 2005 - 2016 Open Source Matters &amp; JoomlaCorner.com. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
-	<description>Thai (ภาษาไทย) ด้านหน้า สำหรับ Joomla! 3.5 โดยทีมลายไทย JoomlaCorner.com ภายใต้การสนับสนุนโดย บริษัท มาร์เวลิค เอ็นจิ้น จำกัด</description>
+	<description>Thai (ภาษาไทย) ด้านหน้าเว็บไซต์ สำหรับ Joomla! 3.5 โดยทีมลายไทย JoomlaCorner.com ภายใต้การสนับสนุนโดย บริษัท มาร์เวลิค เอ็นจิ้น จำกัด</description>
 	<metadata>
 		<name>Thai (ภาษาไทย)</name>
 		<tag>th-TH</tag>

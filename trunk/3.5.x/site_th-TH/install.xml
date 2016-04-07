@@ -2,8 +2,8 @@
 <extension version="3.5" client="site" type="language" method="upgrade">
     <name>Thai (ภาษาไทย)</name>
     <tag>th-TH</tag>
-    <version>3.5.0.2</version>
-    <creationDate>2016-04-04</creationDate>
+    <version>3.5.1.1</version>
+    <creationDate>2016-04-08</creationDate>
     <author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
@@ -22,7 +22,7 @@
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>รายละเอียด :</strong></u></td>
-  		    <td width="60%">ภาษาไทยสำหรับไซต์ (ด้านหน้า)</td>
+  		    <td width="60%">ภาษาไทยสำหรับไซต์ (ด้านหน้าเว็บไซต์)</td>
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>เวอร์ชัน จูมล่า :</strong></u></td>
@@ -30,7 +30,7 @@
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>เวอร์ชัน ไฟล์ภาษา :</strong></u></td>
-  		    <td width="60%">3.5.0v2</td>
+  		    <td width="60%">3.5.1v1</td>
   	    </tr>
   	    <td width="100%" colspan="2"><hr /></td>
   	    <tr>
@@ -69,10 +69,10 @@
 		<filename>th-TH.ini</filename>
 		<filename>th-TH.lib_fof.ini</filename>
 		<filename>th-TH.lib_fof.sys.ini</filename>
-        <filename>th-TH.lib_idna_convert.sys.ini</filename>
+    <filename>th-TH.lib_idna_convert.sys.ini</filename>
 		<filename>th-TH.lib_joomla.ini</filename>
 		<filename>th-TH.lib_joomla.sys.ini</filename>
-        <filename>th-TH.lib_phpass.sys.ini</filename>
+    <filename>th-TH.lib_phpass.sys.ini</filename>
 		<filename>th-TH.lib_phputf8.sys.ini</filename>
 		<filename>th-TH.lib_simplepie.sys.ini</filename>
 		<filename>th-TH.localise.php</filename>
