@@ -1,0 +1,81 @@
+Instructions to Improve the 3.x Language Packs:
+
+(i) Checklist for Preparing the Next Version of the Language Pack
+
+
+(a) The language Pack's .zip file name has to be in the format xx-XX_joomla_lang_full_x.y.zv# (Example: en-GB_joomla_lang_full_3.6.0v1.zip)
+	where	xx (or xxx) is the Language code (ISO 639-1)
+			XX is the Country Code (ISO 3166-2)
+			x.y.z is the Version of Joomla! for which the language pack is made
+			# is the Version of the language pack for the version of Joomla! x.y.z
+			When adding a new version of the pack for the same version of Joomla, # has to be incremented. Example: If it was 1 it should be 2
+
+	Note:	Without this format, the appropriate language pack may not be picked up
+
+
+(b)	In the tag <version>...</version> of the language pack xml (pkg_xx-XX.xml), the version has to be mentioned as x.y.z.# (Example: 3.6.0.1)
+	where	x.y.z is the Version of Joomla! for which the language pack is made
+			# is the Version of the language pack for the version Joomla! x.y.z
+
+	Note:	Observe the difference in the way versions are mentioned in the language pack name and within the tag <version>...</version> (x.y.zv# verses x.y.z.#)
+			Without this format, the Update of language pack may end up in an infinite loop as the current script cannot compare properly the version of the language pack installed with the version of the language pack available
+
+
+(c)	In the tag <name>...</name> of the language pack xml (pkg_xx-XX.xml), the name of the language has to be mentioned (Example: English - Australia) - NOT THE VERSION OF JOOMLA! FOR WHICH THE LANGUAGE PACK HAS BEEN MADE.
+
+
+(d)	The tag <server>...</server> (within the tag <updateservers>...</updateservers> in the file pkg_xx-XX.xml) that specifies the Update Server location must have the following information.
+	<updateservers>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">https://update.joomla.org/language/translationlist_3.xml</server>
+	</updateservers>
+
+	Note:	translationlist_3.xml is very important as translationlist.xml was used for Joomla 2.5
+			Without the proper update server information, the system cannot find the latest version of the language pack
+			From Joomla! 3.6.0, the usage of https (in the place of http) becomes mandatory.
+
+			
+(e) The package xml file name has to be in the format pkg_xx-XX.xml (Example: pkg_en-GB.xml)
+	where	xx is the Language code (ISO 639-1)
+			XX is the Country Code (ISO 3166-2)
+	Note:	Without this format, the manifest file may end up in error
+
+	
+(f) The site and administrator xx-XX.xml files should have the same version as the pkg_xx-XX.xml (Example: 3.6.0.1)
+
+
+===============================================
+
+(ii) Checklist Before Releasing the Language Pack
+
+
+(a)	Install the language pack created just like any other extension
+
+
+(b)	Check the names, version, and date (preferably in the format YYYY-MM-DD) in the screen "Extensions: Manage"
+
+
+(c)	Check the names, version, and date (preferable in the format YYYY-MM-DD) in the screens "Languages: Installed (Administrator)" and "Languages: Installed (Site)"
+
+
+(d) Uninstall the language pack 
+
+
+(e)	Verify that the language's pack, site, and admin are removed
+
+===============================================
+
+(iii) Checklist After Releasing the Language Pack
+
+
+(a)	If the previous version of language pack is available, install it.  Make sure that the update is available in the screen "Extensions: Update" for the language pack and install the update.
+
+	Note:	It takes approximately 20-30 minutes for the newly released language pack to appear
+
+
+(b)	If it is new language pack, check whether language is listed in the screen "Extensions: Install Languages".  Install the language pack.
+
+	Note:	It takes approximately 20-30 minutes for the newly released language pack to appear
+
+
+(c)	Check that the update is not going in an infinite loop
+
