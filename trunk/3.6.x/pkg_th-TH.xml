@@ -53,10 +53,10 @@
     </div>]]>
     </description>
 	<files>
-		<file type="language" client="site" id="th-TH">site_th-TH.zip</file>
-		<file type="language" client="administrator" id="th-TH">admin_th-TH.zip</file>
+		<folder type="language" client="site" id="th-TH">site_th-TH</folder>
+		<folder type="language" client="administrator" id="th-TH">admin_th-TH</folder>
 	</files>
     <updateservers>
-		<server type="collection" priority="1" name="Accredited Joomla! Translations">http://update.joomla.org/language/translationlist_3.xml</server>
+		<server type="collection" priority="1" name="Accredited Joomla! Translations">https://update.joomla.org/language/translationlist_3.xml</server>
     </updateservers>
 </extension>
