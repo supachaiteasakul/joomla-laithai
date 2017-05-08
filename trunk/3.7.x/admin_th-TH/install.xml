@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
-<extension version="3.6" client="administrator" type="language" method="upgrade">
-	<name>Thai (ภาษาไทย)</name>
+<extension version="3.7" client="administrator" type="language" method="upgrade">
+	<name>Thai (th-TH)</name>
 	<tag>th-TH</tag>
-	<version>3.6.4.1</version>
-	<creationDate>October 2016</creationDate>
+	<version>3.7.0.1</version>
+	<creationDate>April 2017</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
-	<copyright>Copyright (C) 2005 - 2016 Open Source Matters &amp; JoomlaCorner.com. All rights reserved.</copyright>
+	<copyright>Copyright (C) 2005 - 2017 Open Source Matters &amp; JoomlaCorner.com. All rights reserved.</copyright>
 	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
 	<description><![CDATA[
     <div align="center">
@@ -15,7 +15,7 @@
   	    <tr>
   		    <td width="100%" colspan="2">
   		      <div class="alert alert-success center" align="center">
-  		        <h3 class="alert-heading">ภาษาไทยสำหรับ จูมล่า 3.6 จากทีมจูมล่าคอร์เนอร์ <br />ภายใต้การสนับสนุนโดย บริษัท มาร์เวลิค เอ็นจิ้น จำกัด</h3>
+  		        <h3 class="alert-heading">ภาษาไทยสำหรับ จูมล่า 3.7 จากทีมจูมล่าคอร์เนอร์ <br />ภายใต้การสนับสนุนโดย บริษัท มาร์เวลิค เอ็นจิ้น จำกัด</h3>
   		      </div>
   		      <hr />
   		    </td>
@@ -26,11 +26,11 @@
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>เวอร์ชัน จูมล่า :</strong></u></td>
-  		    <td width="60%">3.6</td>
+  		    <td width="60%">3.7</td>
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>เวอร์ชัน ไฟล์ภาษา :</strong></u></td>
-  		    <td width="60%">3.6.4v1</td>
+  		    <td width="60%">3.7.0v1</td>
   	    </tr>
   	    <td width="100%" colspan="2"><hr /></td>
    	    <tr>
@@ -54,6 +54,8 @@
 		<filename>th-TH.com_admin.sys.ini</filename>
 		<filename>th-TH.com_ajax.ini</filename>
 		<filename>th-TH.com_ajax.sys.ini</filename>
+		<filename>th-TH.com_associations.ini</filename>
+		<filename>th-TH.com_associations.sys.ini</filename>
 		<filename>th-TH.com_banners.ini</filename>
 		<filename>th-TH.com_banners.sys.ini</filename>
 		<filename>th-TH.com_cache.ini</filename>
@@ -72,6 +74,8 @@
 		<filename>th-TH.com_contenthistory.sys.ini</filename>
 		<filename>th-TH.com_cpanel.ini</filename>
 		<filename>th-TH.com_cpanel.sys.ini</filename>
+		<filename>th-TH.com_fields.ini</filename>
+		<filename>th-TH.com_fields.sys.ini</filename>
 		<filename>th-TH.com_finder.ini</filename>
 		<filename>th-TH.com_finder.sys.ini</filename>
 		<filename>th-TH.com_installer.ini</filename>
@@ -158,6 +162,8 @@
 		<filename>th-TH.plg_content_contact.sys.ini</filename>
     <filename>th-TH.plg_content_emailcloak.ini</filename>
     <filename>th-TH.plg_content_emailcloak.sys.ini</filename>
+		<filename>th-TH.plg_content_fields.ini</filename>
+		<filename>th-TH.plg_content_fields.sys.ini</filename>
 		<filename>th-TH.plg_content_finder.ini</filename>
 		<filename>th-TH.plg_content_finder.sys.ini</filename>
 		<filename>th-TH.plg_content_joomla.ini</filename>
@@ -178,8 +184,14 @@
 		<filename>th-TH.plg_editors_tinymce.sys.ini</filename>
 		<filename>th-TH.plg_editors-xtd_article.ini</filename>
 		<filename>th-TH.plg_editors-xtd_article.sys.ini</filename>
+		<filename>th-TH.plg_editors-xtd_contact.ini</filename>
+		<filename>th-TH.plg_editors-xtd_contact.sys.ini</filename>
+		<filename>th-TH.plg_editors-xtd_fields.ini</filename>
+		<filename>th-TH.plg_editors-xtd_fields.sys.ini</filename>
 		<filename>th-TH.plg_editors-xtd_image.ini</filename>
 		<filename>th-TH.plg_editors-xtd_image.sys.ini</filename>
+		<filename>th-TH.plg_editors-xtd_menu.ini</filename>
+		<filename>th-TH.plg_editors-xtd_menu.sys.ini</filename>
 		<filename>th-TH.plg_editors-xtd_module.ini</filename>
 		<filename>th-TH.plg_editors-xtd_module.sys.ini</filename>
 		<filename>th-TH.plg_editors-xtd_pagebreak.ini</filename>
@@ -188,6 +200,38 @@
 		<filename>th-TH.plg_editors-xtd_readmore.sys.ini</filename>
 		<filename>th-TH.plg_extension_joomla.ini</filename>
 		<filename>th-TH.plg_extension_joomla.sys.ini</filename>
+		<filename>th-TH.plg_fields_calendar.ini</filename>
+		<filename>th-TH.plg_fields_calendar.sys.ini</filename>
+		<filename>th-TH.plg_fields_checkboxes.ini</filename>
+		<filename>th-TH.plg_fields_checkboxes.sys.ini</filename>
+		<filename>th-TH.plg_fields_color.ini</filename>
+		<filename>th-TH.plg_fields_color.sys.ini</filename>
+		<filename>th-TH.plg_fields_editor.ini</filename>
+		<filename>th-TH.plg_fields_editor.sys.ini</filename>
+		<filename>th-TH.plg_fields_image.ini</filename>
+		<filename>th-TH.plg_fields_image.sys.ini</filename>
+		<filename>th-TH.plg_fields_imagelist.ini</filename>
+		<filename>th-TH.plg_fields_imagelist.sys.ini</filename>
+		<filename>th-TH.plg_fields_integer.ini</filename>
+		<filename>th-TH.plg_fields_integer.sys.ini</filename>
+		<filename>th-TH.plg_fields_list.ini</filename>
+		<filename>th-TH.plg_fields_list.sys.ini</filename>
+		<filename>th-TH.plg_fields_media.ini</filename>
+		<filename>th-TH.plg_fields_media.sys.ini</filename>
+		<filename>th-TH.plg_fields_radio.ini</filename>
+		<filename>th-TH.plg_fields_radio.sys.ini</filename>
+		<filename>th-TH.plg_fields_sql.ini</filename>
+		<filename>th-TH.plg_fields_sql.sys.ini</filename>
+		<filename>th-TH.plg_fields_text.ini</filename>
+		<filename>th-TH.plg_fields_text.sys.ini</filename>
+		<filename>th-TH.plg_fields_textarea.ini</filename>
+		<filename>th-TH.plg_fields_textarea.sys.ini</filename>
+		<filename>th-TH.plg_fields_url.ini</filename>
+		<filename>th-TH.plg_fields_url.sys.ini</filename>
+		<filename>th-TH.plg_fields_user.ini</filename>
+		<filename>th-TH.plg_fields_user.sys.ini</filename>
+		<filename>th-TH.plg_fields_usergrouplist.ini</filename>
+		<filename>th-TH.plg_fields_usergrouplist.sys.ini</filename>
 		<filename>th-TH.plg_finder_categories.ini</filename>
 		<filename>th-TH.plg_finder_categories.sys.ini</filename>
 		<filename>th-TH.plg_finder_contacts.ini</filename>
@@ -212,6 +256,8 @@
 		<filename>th-TH.plg_quickicon_extensionupdate.sys.ini</filename>
 		<filename>th-TH.plg_quickicon_joomlaupdate.ini</filename>
 		<filename>th-TH.plg_quickicon_joomlaupdate.sys.ini</filename>
+		<filename>th-TH.plg_quickicon_phpversioncheck.ini</filename>
+		<filename>th-TH.plg_quickicon_phpversioncheck.sys.ini</filename>
 		<filename>th-TH.plg_search_categories.ini</filename>
 		<filename>th-TH.plg_search_categories.sys.ini</filename>
 		<filename>th-TH.plg_search_contacts.ini</filename>
@@ -228,6 +274,8 @@
 		<filename>th-TH.plg_system_cache.sys.ini</filename>
 		<filename>th-TH.plg_system_debug.ini</filename>
 		<filename>th-TH.plg_system_debug.sys.ini</filename>
+		<filename>th-TH.plg_system_fields.ini</filename>
+		<filename>th-TH.plg_system_fields.sys.ini</filename>
 		<filename>th-TH.plg_system_highlight.ini</filename>
 		<filename>th-TH.plg_system_highlight.sys.ini</filename>
 		<filename>th-TH.plg_system_languagecode.ini</filename>
@@ -264,7 +312,6 @@
 		<filename>th-TH.tpl_hathor.sys.ini</filename>
 		<filename>th-TH.tpl_isis.ini</filename>
 		<filename>th-TH.tpl_isis.sys.ini</filename>
-		<filename>index.html</filename>
 		<filename file="meta">th-TH.xml</filename>
 		<filename file="meta">install.xml</filename>
 	</files>
