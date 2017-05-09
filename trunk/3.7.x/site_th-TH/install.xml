@@ -136,7 +136,6 @@
 		<filename file="meta">th-TH.xml</filename>
 	</files>
 	<media destination="th-TH"> <!-- If one needs to add a specific calendar -->
-		<filename>index.html</filename>
 		<filename>js/index.html</filename>
 		<filename>js/calendar-setup.js</filename>
 		<filename>js/calendar.js</filename>
