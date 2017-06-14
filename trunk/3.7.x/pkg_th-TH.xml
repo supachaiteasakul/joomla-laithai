@@ -2,13 +2,13 @@
 <extension type="package" version="3.7" method="upgrade">
 	<name>Thai (th-TH) Language Pack</name>
 	<packagename>th-TH</packagename>
-	<version>3.7.2.1</version>
-	<creationDate>May 2017</creationDate>
+	<version>3.7.3.1</version>
+	<creationDate>June 2017</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
 	<copyright>Copyright (C) 2005 - 2017 Open Source Matters, Inc &amp; JoomlaCorner.com. All rights reserved.</copyright>
-	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
 	<url></url>
 	<packager>Joomla! Thai</packager>
 	<packagerurl>www.joomlacorner.com</packagerurl>
@@ -33,7 +33,7 @@
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>เวอร์ชัน ของไฟล์ภาษา :</strong></u></td>
-  		    <td width="60%">3.7.2v1</td>
+  		    <td width="60%">3.7.3v1</td>
   	    </tr>
   	    <td width="100%" colspan="2"><hr /></td>
   	    <tr>
