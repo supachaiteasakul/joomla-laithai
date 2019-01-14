@@ -2,7 +2,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  Copyright (C) 2005 - 2018 Open Source Matters, Inc. All rights reserved.
+ * @copyright  Copyright (C) 2005 - 2019 Open Source Matters, Inc. All rights reserved.
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -94,7 +94,7 @@ abstract class Th_THLocalise
 	 * @param	string	$string	The string to transliterate
 	 * @return	string	The transliteration of the string
 	 * @since	1.6
-	 */		 
+	 */
 	public static function transliterate($string)
 	{
 		$str = JString::strtolower($string);
@@ -164,7 +164,7 @@ class th_THDate extends JDate {
 	const MINUTE_NUMBER		= "\x043\x03";
 	const SECOND_NUMBER		= "\x044\x03";
 	const ORDINAL_NUMBER	= "\x045\x03";
-	
+
 	/**
 	 * Gets the date as a formatted string.
 	 *
@@ -184,7 +184,7 @@ class th_THDate extends JDate {
 		$format = preg_replace('/(^|[^\\\])i/', "\\1".self::MINUTE_NUMBER, $format);
 		$format = preg_replace('/(^|[^\\\])s/', "\\1".self::SECOND_NUMBER, $format);
 		$format = preg_replace('/(^|[^\\\])S/', "\\1".self::ORDINAL_NUMBER, $format);
-		
+
 		// Format the date.
 		$return = parent::calendar($format, $local);
 		// convNumber : true = thai number , false = arabic number
@@ -214,7 +214,7 @@ class th_THDate extends JDate {
 		if (strpos($return, self::ORDINAL_NUMBER) !== false) {
 			$return = str_replace(self::ORDINAL_NUMBER, $this->numToString($this->ordinal, $convNumber), $return);
 		}
-		
+
 		return $return;
 	}
 
@@ -240,22 +240,22 @@ class th_THDate extends JDate {
 	function yearToString($year, $abbr = false)
 	{
 		return $this->Convertnumber2thai($year+543,$abbr);
-	}		
+	}
 	function numToString($date, $abbr = false)
 	{
 		return  $this->Convertnumber2thai($date,$abbr);
 	}
 
-	// Here convert to  number in Thai	
-	function Convertnumber2thai($result,$abbr = false) 
+	// Here convert to  number in Thai
+	function Convertnumber2thai($result,$abbr = false)
 	{
-		 $thaiNumber = array ("๐", "๑", "๒", "๓", "๔", "๕", "๖", "๗","๘", "๙" );	
+		 $thaiNumber = array ("๐", "๑", "๒", "๓", "๔", "๕", "๖", "๗","๘", "๙" );
 		$org_result = $result;
 		for ( $counter=0; $counter <= 9; $counter++) {	$result = str_replace($counter, $thaiNumber[$counter], $result);	}
 		return $abbr ? $result : $org_result ;
-	}	
+	}
 	// End convert number 2 thai
-	
+
 	function dayToString($day, $abbr = false)
 	{
 		switch ($day) {
