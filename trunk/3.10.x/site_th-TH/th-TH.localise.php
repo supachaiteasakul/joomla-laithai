@@ -2,7 +2,7 @@
 /**
  * @package    Joomla.Language
  *
- * @copyright  Copyright (C) 2005 - 2021 Open Source Matters, Inc. All rights reserved.
+ * @copyright  (C) 2010 Open Source Matters, Inc. <https://www.joomla.org>
  * @license    GNU General Public License version 2 or later; see LICENSE.txt
  */
 
@@ -87,7 +87,8 @@ abstract class Th_THLocalise
 	{
 		return 200;
 	}
-       /**
+
+	/**
 	 * This method processes a string and replaces all accented UTF-8 characters by unaccented
 	 * ASCII-7 "equivalents"
 	 *
