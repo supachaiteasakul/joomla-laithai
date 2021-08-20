@@ -3,16 +3,16 @@
 	<name>Thai (th-TH)</name>
 	<tag>th-TH</tag>
 	<version>4.0.0</version>
-	<creationDate/>
+	<creationDate>August 2021</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
-	<copyright/>
-	<license/>
-	<description/>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description>th-TH api language</description>
 	<files>
 		<folder>/</folder>
 		<filename file="meta">install.xml</filename>
 	</files>
-	<params/>
+	<params />
 </extension>

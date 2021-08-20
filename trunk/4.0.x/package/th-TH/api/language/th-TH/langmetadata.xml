@@ -2,13 +2,13 @@
 <metafile client="api">
 	<name>Thai (th-TH)</name>
 	<version>4.0.0</version>
-	<creationDate>July 2021</creationDate>
+	<creationDate>August 2021</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
 	<authorUrl>www.joomlacorner.com</authorUrl>
-	<copyright/>
-	<license/>
-	<description><![CDATA[]]></description>
+	<copyright>(C) 2020 Open Source Matters, Inc.</copyright>
+	<license>GNU General Public License version 2 or later; see LICENSE.txt</license>
+	<description><![CDATA[th-TH api language]]></description>
 	<metadata>
 		<name>Thai (ภาษาไทย)</name>
 		<nativeName>Thai (ภาษาไทย)</nativeName>
@@ -19,5 +19,5 @@
 		<weekEnd>0,6</weekEnd>
 		<calendar>gregorian</calendar>
 	</metadata>
-	<params/>
+	<params />
 </metafile>
