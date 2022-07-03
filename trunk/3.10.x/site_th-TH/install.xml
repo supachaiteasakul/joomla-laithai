@@ -2,7 +2,7 @@
 <extension version="3.9" client="site" type="language" method="upgrade">
 	<name>Thai (th-TH)</name>
 	<tag>th-TH</tag>
-	<version>3.10.10.1</version>
+	<version>3.10.11.1</version>
 	<creationDate>June 2022</creationDate>
 	<author>Thai Translation Team</author>
 	<authorEmail>tt@joomlacorner.com</authorEmail>
@@ -30,7 +30,7 @@
   	    </tr>
   	    <tr>
   		    <td width="40%"><u><strong>เวอร์ชัน ไฟล์ภาษา :</strong></u></td>
-  		    <td width="60%">3.10.10v1</td>
+  		    <td width="60%">3.10.11v1</td>
   	    </tr>
   	    <td width="100%" colspan="2"><hr /></td>
   	    <tr>
