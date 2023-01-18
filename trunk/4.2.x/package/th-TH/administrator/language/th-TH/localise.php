@@ -34,11 +34,11 @@ abstract class Th_THLocalise
     public static function getPluralSuffixes($count)
     {
         if ($count == 0) {
-            return array('0');
+            return ['0'];
         } elseif ($count == 1) {
-            return array('ONE', '1');
+            return ['ONE', '1'];
         } else {
-            return array('OTHER', 'MORE');
+            return ['OTHER', 'MORE'];
         }
     }
 
@@ -51,7 +51,7 @@ abstract class Th_THLocalise
      */
     public static function getIgnoredSearchWords()
     {
-        return array('and', 'in', 'on');
+        return ['and', 'in', 'on'];
     }
 
     /**
@@ -105,7 +105,7 @@ abstract class Th_THLocalise
   		//Specific language transliteration.
   		//This one is for latin 1, latin supplement , extended A, Cyrillic, Greek
   
-  		$glyph_array = array(
+  		$glyph_array = [
   		'a'		=>	'à,á,â,ã,ä,å,ā,ă,ą,ḁ,α,ά',
   		'ae'	=>	'æ',
   		'b'		=>	'β,б',
@@ -146,7 +146,7 @@ abstract class Th_THLocalise
   		'x'		=>	'χ,ξ',
   		'y'		=>	'ý,þ,ÿ,ŷ',
   		'z'		=>	'ź,ż,ž,з,ж,ζ'
-  		);
+  		];
   
   		foreach( $glyph_array as $letter => $glyphs ) {
   			$glyphs = explode( ',', $glyphs );
@@ -252,7 +252,7 @@ abstract class Th_THLocalise
   	// Here convert to  number in Thai
   	function Convertnumber2thai($result,$abbr = false)
   	{
-  		$thaiNumber = array ("๐", "๑", "๒", "๓", "๔", "๕", "๖", "๗","๘", "๙" );
+  		$thaiNumber = ['๐', '๑', '๒', '๓', '๔', '๕', '๖', '๗', '๘', '๙'];
   		$org_result = $result;
   		for ( $counter=0; $counter <= 9; $counter++) {	$result = str_replace($counter, $thaiNumber[$counter], $result);	}
   		return $abbr ? $result : $org_result ;
