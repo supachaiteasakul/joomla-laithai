@@ -157,10 +157,9 @@ abstract class Th_THLocalise
   
   		return $str;
   	}
-  }
-  
-  jimport('joomla.utilities.date');
-  class th_THDate extends JDate {
+}
+
+class th_THDate extends Joomla\CMS\Date\Date {
   	const DAY_NUMBER	= "\x027\x03";
   	const MONTH_NUMBER	= "\x035\x03";
   	const YEAR_NUMBER		= "\x040\x03";
@@ -271,6 +270,6 @@ abstract class Th_THLocalise
   			case 4: return $abbr ? JText::_('THU') : JText::_('THURSDAY');
   			case 5: return $abbr ? JText::_('FRI') : JText::_('FRIDAY');
   			case 6: return $abbr ? JText::_('SAT') : JText::_('SATURDAY');
-  			}
 		}
+	}
 }
